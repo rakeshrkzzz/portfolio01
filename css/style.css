@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container
+{
+    margin: auto;
+}
+
+.col-3
+{
+    width: 30%;
+    float: right;
+}
+.col-6
+{
+    width: 60%;
+    float: left;
+}
+ul
+{
+    list-style: none;
+    margin-top: 2em;
+}
+li
+{
+    display: inline
+}
+li a
+{
+    text-decoration: none;
+    color: #FFF;
+    padding-left: 1em;
+}
+a:hover
+{
+    color: rgb(145, 211, 255);
+}
+
+body{
+    
+    overflow-x:hidden;
+    height: auto;
+    width: 100%;
+    
+}
+p
+{
+    font-weight: 400;
+}
+h1,h2,h3,h4,h5,h6
+{
+    font-weight: 700;
+    line-height: 1em;
+}
+/*Header CSS*/
+.header-area
+{
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.header-area .container .col-6 .logo
+{
+    margin: 2em 0 0 4em;
+}
+.heading
+{
+    padding: 1em 0;
+}
+.heading .container .col-6 .logo
+{
+    padding-left: 4em;
+}
+.heading .container .col-3 .menu-area ul li a
+{
+    color:#000;
+}
+.slide1
+{
+    cursor: pointer;
+    padding: 5em 0 0 4em;
+    position: absolute;
+}
+.slidemain
+{
+    margin-bottom: -5px;
+}
